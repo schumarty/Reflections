@@ -1,0 +1,10 @@
+## What happens when you initialize a repository? Why do you need to do it?
+
+Ititializing a repository simply creates a .git folder in the current directory. This
+command must be ran in order for git to have a place where commits can be stored.
+
+## How is the staging area different from the working directory and the repository? what value do yo uthink it offers?
+
+The staging area provides an itermediate area to track which files in the working
+directory will be commited to the repository. This allows the user to have greater
+control over which files will be tracked by git.
