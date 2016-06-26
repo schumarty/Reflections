@@ -8,3 +8,9 @@ command must be ran in order for git to have a place where commits can be stored
 The staging area provides an itermediate area to track which files in the working
 directory will be commited to the repository. This allows the user to have greater
 control over which files will be tracked by git.
+
+## How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area allows only the added files to be committed thus allowing one to
+selectively commit files in logical groups. It also provides a way to check which
+changes will be included before a commit is performed.
