@@ -20,3 +20,8 @@ changes will be included before a commit is performed.
 Branching is helpful for situations in which a new experiment feature is being added
 because it allows for drastic changes to be made to the code while still keeping an
 unaltered main branch that will remain stable.
+
+## How do the diagrams help you visualize the branch structure?
+
+Diagrams provide an easy way to map out the way in which a commit relates to
+all of the other commits that have been created.
