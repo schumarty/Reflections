@@ -14,3 +14,9 @@ control over which files will be tracked by git.
 The staging area allows only the added files to be committed thus allowing one to
 selectively commit files in logical groups. It also provides a way to check which
 changes will be included before a commit is performed.
+
+## What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branching is helpful for situations in which a new experiment feature is being added
+because it allows for drastic changes to be made to the code while still keeping an
+unaltered main branch that will remain stable.
