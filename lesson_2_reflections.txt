@@ -25,3 +25,10 @@ unaltered main branch that will remain stable.
 
 Diagrams provide an easy way to map out the way in which a commit relates to
 all of the other commits that have been created.
+
+## What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together will combine the separate changes made to each branch into
+a single branch which will seem to contain all of the commits made to the two branches.
+In the diagram it is represented as a single commit with two parent commits in order to
+show that it follows the changes made from each, previously separate, branch.
