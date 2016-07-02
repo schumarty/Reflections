@@ -32,3 +32,9 @@ Merging two branches together will combine the separate changes made to each bra
 a single branch which will seem to contain all of the commits made to the two branches.
 In the diagram it is represented as a single commit with two parent commits in order to
 show that it follows the changes made from each, previously separate, branch.
+
+## What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Automatic merging is faster and always ensures that all relevant files will be included
+in the merge. However, there are situations, such as when both branches contain changes
+to the same parts of a file, in which merging must still be done automatically.
